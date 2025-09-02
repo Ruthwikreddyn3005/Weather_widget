@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <h2>Weather</h2>
+        <form >
+        <div class="search">
+            <input type="text" placeholder="enter city" value=""/>
+            <div class="search-logo">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+        </div>
+        <div class="WeatherLogo">
+            <img src="weather-app-img/images/clear.png" alt="">
+        </div>
+        <div class="temperature">1^c</div>
+        <div class="city">city</div>
+        <div class="humid-wind">
+            <div class="humid">
+                <img src="weather-app-img/images/humidity.png" alt="">
+                <div class="humid-text">
+                    <p id="humidity">humid</p>
+                    <p>Humidity</p>
+                </div>    
+            </div>
+            <div class="wind">
+                <img src="weather-app-img/images/wind.png" alt="">
+                <div class="wind-text">
+                    <p id="wind">wind</p>
+                    <div class="wind-label"> 
+                        <p>Wind </p>
+                        <p>Speed</p>
+                    </div>
+                </div>    
+            </div>
+            
+        </div>
+        </form>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(#8686AC ,#505081,  #272757, #0F0E47);
+    background-color: #272757;
+    margin-top: 1rem;
+    height:100vh;
+    width:100vw;
+
+
+}
+
+.container{
+    
+    width:40rem;
+    height: 50rem;
+    background-color: #8686AC;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5rem;
+    
+    
+}
+h2{
+    text-align: center;
+    height: 3rem;
+    justify-content: center;
+    line-height: 3rem;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color:#0F0E47;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+}
+.search input{
+
+    height: 3rem;
+    width:31rem ;
+    border-radius: 2rem;
+    border:hidden;
+    padding:1rem;
+    color: gray;
+    outline: none;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+.search-logo{
+    background-color: white;
+    height: 3rem;
+    width: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 3rem;
+}
+
+.search-logo:hover{
+    background-color: #0F0E47;
+    color: white;
+    cursor: pointer;
+}
+
+.WeatherLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.WeatherLogo img{
+    height: 10rem;
+    margin-top: 2rem;
+}
+.temperature{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 2rem;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #0F0E47;
+}
+
+.city{
+    justify-content: center;
+    display: flex;
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #0F0E47;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.humid-wind{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    margin-top: 7rem;
+
+}
+
+.humid{
+    margin-left: 8rem;
+    display: flex;
+    gap:1.5rem;
+    
+}
+
+.wind{
+    margin-right: 8rem;
+    display :flex;
+    gap:1.5rem;
+}
+
+.humid-text{
+    margin-top: 1rem;
+}
+
+.wind-text{
+    margin-top: 1rem;
+}
+
+#humidity{
+    font-size: 2rem;
+}
+
+#wind{
+    font-size: 2rem;
+
+}
+
+.wind-label{
+    display: flex;
+    gap:0.3rem
+}
+
+
